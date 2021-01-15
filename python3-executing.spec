@@ -22,6 +22,8 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-asttokens
 BuildRequires:  python3-tox
+BuildRequires:  python3-setuptools_scm+toml
+BuildRequires:  python3-setuptools_scm
 
 %description -n python3-%{srcname} %_description
 
