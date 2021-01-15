@@ -28,6 +28,7 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-tox
 BuildRequires:  python3-colorama
 BuildRequires:  python3-pygments
+BuildRequires:  python3-asttokens
 #BuildRequires:  python3-executing
 
 Requires: python3-executing
