@@ -26,8 +26,9 @@ Summary:        %{summary}
 BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-tox
-BuildRequires:  python3-asttokens
-
+BuildRequires:  python3-colorama
+BuildRequires:  python3-pygments
+#BuildRequires:  python3-executing
 
 Requires: python3-executing
 
@@ -45,6 +46,7 @@ Requires: python3-executing
 %check
 %{python3} setup.py test
 
+# Note that there is no %%files section for the unversioned python module
 %files -n python3-%{srcname}
 %license LICENSE.txt
 %doc README.md
