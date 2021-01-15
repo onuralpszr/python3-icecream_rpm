@@ -26,7 +26,8 @@ Summary:        %{summary}
 BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-tox
-#BuildRequires:  python3-executing
+BuildRequires:  python3-asttokens
+
 
 Requires: python3-executing
 
