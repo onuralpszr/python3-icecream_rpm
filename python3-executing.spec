@@ -20,6 +20,7 @@ This mini-package lets you get information about what a frame is currently doing
 Summary:        %{summary}
 BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
+BuildRequires:  python3-wheel
 BuildRequires:  python3-asttokens
 BuildRequires:  python3-tox
 BuildRequires:  python3-setuptools_scm+toml
