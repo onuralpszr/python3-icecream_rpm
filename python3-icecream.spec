@@ -1,7 +1,7 @@
 %global srcname icecream
 
 Name:           python-%{srcname}
-Version:        2.0.0
+Version:        2.1.0
 Release:        1%{?dist}
 Summary:        IceCream -- Never use print to debug again
 
@@ -55,5 +55,8 @@ Requires: python3-executing
 
 
 %changelog
+* Fri Jan 15 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 2.1.0-1
+- Update version to 2.1.0
+
 * Fri Jan 15 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 2.0.0-1
 - Initial package
